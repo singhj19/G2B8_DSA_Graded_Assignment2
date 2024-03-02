@@ -46,7 +46,7 @@ public class Skewed {
             Node temp = root;
             while (temp.right != null)
             {
-                System.out.print(temp.key + " ->");
+                System.out.print(temp.key + " ");
                 temp = temp.right;
 
             }
